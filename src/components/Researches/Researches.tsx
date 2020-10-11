@@ -102,6 +102,31 @@ export const Researches: React.FC = () => {
           </Flex>
         </Card>
 
+        <Card href="https://drive.google.com/file/d/1PCL-VjZnHUWadle6tN5MAiCZDPYp84D5/view?usp=sharing">
+          <Heading size="md">
+            スマートロック向けドアノック動作認証のための機械学習手法の検討 <Icon name="external-link" mx="2px" />
+          </Heading>
+          <Flex wrap="wrap" my={2}>
+            <Badge mb={2}>スマートホーム</Badge>
+            <Badge mb={2} ml={2}>
+              スマートロック
+            </Badge>
+            <Badge mb={2} ml={2}>
+              ドアノック
+            </Badge>
+            <Badge mb={2} ml={2}>
+              個人認証
+            </Badge>
+          </Flex>
+          <Name>中鉢 かける</Name>
+          <Flex wrap="wrap" my={2}>
+            <Badge variantColor="orange">中村研</Badge>
+            <Badge variantColor="purple" ml={2}>
+              Master
+            </Badge>
+          </Flex>
+        </Card>
+
         <Card href="https://drive.google.com/file/d/1zT1lz3HcKjbozg5IaczGowJa_P8Vfysm/view?usp=sharing">
           <Heading size="md">
             2020年度 学部4年生の研究 <Icon name="external-link" mx="2px" />
