@@ -58,6 +58,29 @@ export const Researches: React.FC = () => {
           </Flex>
         </Card>
 
+        <Card href="https://drive.google.com/file/d/1-32ffRzd_n8Jw7dAW5-blDLbeihHbaFw/view?usp=sharing">
+          <Heading size="md">
+            特性が未知のボトルネックリンクに対して有効なLow-rate DDoS攻撃戦略の検討
+            <Icon name="external-link" mx="2px" />
+          </Heading>
+          <Flex wrap="wrap" my={2}>
+            <Badge mb={2}>ネットワーク・セキュリティ</Badge>
+            <Badge mb={2} ml={2}>
+              Low-rate DDoS Attack
+            </Badge>
+            <Badge mb={2} ml={2}>
+              TCP輻輳制御
+            </Badge>
+          </Flex>
+          <Name>髙橋 佑太</Name>
+          <Flex wrap="wrap" my={2}>
+            <Badge variantColor="blue">稲村研</Badge>
+            <Badge variantColor="purple" ml={2}>
+              Master
+            </Badge>
+          </Flex>
+        </Card>
+
         <Card href="https://drive.google.com/file/d/172PDfMoPxdDq8Vhn8U1FKSkhwIgUVM5o/view">
           <Heading size="md">
             クラウドにおけるPDEの考え方を用いたファイルシステムの検討 <Icon name="external-link" mx="2px" />
