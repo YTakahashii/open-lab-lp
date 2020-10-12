@@ -14,7 +14,7 @@ export const Card: React.FC<Props> = ({ href, children }) => {
         m={2}
         maxWidth="400px"
         bg="white"
-        boxShadow="md"
+        boxShadow="xl"
         cursor="pointer"
         transition="all 200ms ease"
         _hover={{ transform: 'translateY(-5px)' }}
