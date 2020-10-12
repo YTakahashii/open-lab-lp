@@ -3,7 +3,14 @@ import { Flex, Heading, useTheme } from '@chakra-ui/core';
 export const Welcome: React.FC = () => {
   const theme = useTheme();
   return (
-    <Flex id="top" direction="column" justifyContent="center" alignItems="center" marginY={theme.space[20]}>
+    <Flex
+      id="top"
+      direction="column"
+      justifyContent="center"
+      alignItems="center"
+      marginY={theme.space[20]}
+      display={['none', 'none', 'flex', 'flex']}
+    >
       <section className="section-process">
         <div className="section-container">
           <div className="process-steps-container container-medium with-padding">

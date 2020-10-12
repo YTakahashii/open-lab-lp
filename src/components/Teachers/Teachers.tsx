@@ -6,7 +6,7 @@ export const Teachers: React.FC = () => {
   const theme = useTheme();
 
   return (
-    <Flex id="teachers" direction="column" marginBottom={3} width="100%">
+    <Flex id="teachers" direction="column" marginBottom={3} width="100%" display={['none', 'none', 'flex']}>
       <Heading size="xl" marginBottom={theme.space[6]} display="flex" justifyContent="center">
         教員紹介
       </Heading>

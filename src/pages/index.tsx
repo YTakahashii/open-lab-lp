@@ -14,13 +14,10 @@ const TopPage: NextPage = () => {
       <main>
         <Header />
         <Welcome />
-        <Box marginX={100} display="flex" flexDirection="column" alignItems="center">
+        <Box marginX={[8, 24, 100, 100]} display="flex" flexDirection="column" alignItems="center">
           <Message />
-          <Divider width="100%" marginBottom={theme.space[8]} />
           <Teachers />
-          <Divider width="100%" marginBottom={theme.space[8]} />
           <Researches />
-          <Divider width="100%" marginBottom={theme.space[8]} />
           <Events />
         </Box>
       </main>

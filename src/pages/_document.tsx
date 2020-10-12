@@ -22,6 +22,7 @@ export default class MyDocument extends Document {
           />
           <meta name="theme-color" content="white" />
           <meta name="robots" content="noindex,nofollow" />
+          <meta name="viewport" content="width=device-width,initial-scale=1" />
           <title>稲村・中村研究室 オープンラボ</title>
           <link rel="icon" href="/favicon.ico" />
         </Head>

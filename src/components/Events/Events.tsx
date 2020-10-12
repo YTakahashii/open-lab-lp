@@ -3,7 +3,7 @@ import { Card } from './Card';
 
 export const Events: React.FC = () => {
   return (
-    <Flex id="events" direction="column" marginBottom={3} width="100%" mb={8}>
+    <Flex id="events" direction="column" marginBottom={3} width="100%" display={['flex']}>
       <Heading display="flex" justifyContent="center" mb={3}>
         イベント
       </Heading>
