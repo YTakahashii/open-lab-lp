@@ -10,7 +10,7 @@ export const Message: React.FC = () => {
         概要ビデオ
       </Heading>
       <Box width={800} height="auto">
-        <Player playsInline>
+        <Player playsInline poster="/inamura-video-thumbnail.jpg">
           <ControlBar />
           <source src="/inamura-video.mp4" type="video/mp4" />
         </Player>
